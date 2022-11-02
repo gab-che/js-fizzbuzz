@@ -6,9 +6,12 @@
 }
 
 .square{
-    width: calc(100% / 7);
+    width: calc(100% / 8);
     aspect-ratio: 1;
     background-color: var(--square);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .square_fizz{
