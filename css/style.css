@@ -1,0 +1,24 @@
+:root{
+    --square: #1389b2;
+    --square_fizz: #0cd6a1;
+    --square_buzz: #ffd166;
+    --square_fizz_buzz: #f0466f;
+}
+
+.square{
+    width: calc(100% / 7);
+    aspect-ratio: 1;
+    background-color: var(--square);
+}
+
+.square_fizz{
+    background-color: var(--square_fizz);
+}
+
+.square_buzz{
+    background-color: var(--square_buzz);
+}
+
+.square_fizz_buzz{
+    background-color: var(--square_fizz_buzz);
+}
