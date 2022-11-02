@@ -3,6 +3,7 @@
     --square_fizz: #0cd6a1;
     --square_buzz: #ffd166;
     --square_fizz_buzz: #f0466f;
+    --bg_main: #083b4c;
 }
 
 .square{
@@ -24,4 +25,8 @@
 
 .square_fizz_buzz{
     background-color: var(--square_fizz_buzz);
+}
+
+.bg_main{
+    background-color: var(--bg_main);
 }
